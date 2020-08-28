@@ -4,7 +4,6 @@ use std::env;
 use std::path::PathBuf;
 
 fn main() {
-
     // The bindgen::Builder is the main entry point
     // to bindgen, and lets you build up options for
     // the resulting bindings.
@@ -13,6 +12,7 @@ fn main() {
         // bindings for.
         .header("src/wrapper.h")
         // Finish the builder and generate the bindings.
+        .derive_default(true)
         .generate()
         // Unwrap the Result and panic on failure.
         .expect("Unable to generate bindings");
@@ -23,4 +23,3 @@ fn main() {
         .write_to_file(out_path.join("bindings.rs"))
         .expect("Couldn't write bindings!");
 }
-
