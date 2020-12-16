@@ -1,6 +1,6 @@
 # xenvmevent-sys
 
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+![CI](https://github.com/Wenzel/xenvmevent-sys/workflows/CI/badge.svg)
 
 > Rust unsafe bindings for Xen VM event definitions
 
@@ -24,8 +24,6 @@
 ## Contributing
 
 PRs accepted.
-
-Small note: If editing the Readme, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
 
 ## License
 
