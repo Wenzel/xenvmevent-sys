@@ -7,6 +7,7 @@ readme = "README.md"
 keywords = ["xen"]
 description = "Rust unsafe bindings for Xen VM event definitions"
 license = "GPL-3.0-only"
+repository = "https://github.com/Wenzel/xenvmevent-sys"
 
 [dependencies]
 
