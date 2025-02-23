@@ -11,4 +11,4 @@ license = "GPL-3.0-only"
 [dependencies]
 
 [build-dependencies]
-bindgen = "0.52.0"
+bindgen = "0.71.1"
